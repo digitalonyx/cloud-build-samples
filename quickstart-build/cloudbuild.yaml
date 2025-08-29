@@ -14,7 +14,7 @@
 
 # [START cloudbuild_quickstart_build]
 steps:
-- name: 'gcr.io/cloud-builders/docker'
+- name: 'gcr.io/cloud-builders/docker2'
   script: |
     docker build -t us-west1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1 .
   automapSubstitutions: true
